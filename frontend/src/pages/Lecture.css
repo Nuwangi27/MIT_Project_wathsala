@@ -1,0 +1,48 @@
+
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;/* Set the height to 100% of the viewport height */
+    text-decoration: solid;
+    background-color:rgb(129, 129, 197);
+    border-color: black;
+    border-width: 5px;
+    border: 5px solid #0e0c0c;
+  
+    
+  }
+  
+  .video-container {
+    align-items: center;
+    top: 70px;
+    left: 200px;
+    position: relative;
+    width: 70%; /* Adjust the width as needed */
+    
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive scaling */
+    overflow: hidden;
+    margin-bottom: -50%;
+    
+    
+   
+  }
+ 
+  iframe {
+    position: absolute;
+    
+    
+    width: 560px; /* Set the width as needed */
+    height: 315px; /* Set the height as needed */
+  }
+  
+  .video-title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-style: oblique;
+    color: #333;
+    bottom: 2Px;
+  }
+  

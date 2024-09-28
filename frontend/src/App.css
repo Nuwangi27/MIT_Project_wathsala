@@ -1,0 +1,49 @@
+body {
+    background-image: url(D:\akka_new_files\python2\elearningsystem\frontend\src\assests\intro-background1.jpg); /* Replace with the path to your image file */
+    background-size: cover; /* This ensures that the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    /* Add any additional styles you need for the body */
+    margin: 0; /* Remove default margin to avoid unnecessary spacing */
+    padding: 0; /* Remove default padding for consistency */
+    font-family: 'Arial', sans-serif; /* Specify a font if needed */
+    /* Add more styles as per your design requirements */
+    height: 100%;
+    -webkit-text-size-adjust: 100%; /* Adjust text size */
+    text-size-adjust: 100%; /* Standard property */
+  
+
+  }
+  
+  /* Footer.css */
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0; /* Adjust the top and bottom padding */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    margin-bottom: 10px; /* Adjust the bottom margin */
+  }
+  
+  /* Optional: Reduce font size and line height */
+  .footer p {
+    font-size: 14px; /* Adjust the font size */
+    line-height: 1.2; /* Adjust the line height */
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  

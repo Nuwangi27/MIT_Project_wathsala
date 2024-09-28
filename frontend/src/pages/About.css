@@ -1,0 +1,39 @@
+/* Style for the container */
+.container3 {
+  
+  border: 3px solid green;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 200px; /* Set height to 200px */
+  
+}
+.center2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p{
+  font-size: 250px;
+}
+
+/* Style for the buttons */
+button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Add some spacing between the buttons */
+button + button {
+  margin-left: 40px;
+}

@@ -1,0 +1,106 @@
+/* Add some basic styling to the container */
+.container2{
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #0e0c0c;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    
+  }
+  
+  /* Center the login form */
+  .form-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  /* Style the headings */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Style the input fields */
+  .row {
+    margin-bottom: 15px;
+  }
+  
+  .col-md-6 {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .registration-title{
+    margin-top: -50px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  /* Add some spacing and styling to the Navibar 
+  .Navibar {
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Additional styling for the body or background 
+  body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .dashboard-container{
+    top: 70px;
+    left: 2000px;
+    align-content: left;
+
+  }
+  */
+  
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px
+}
+
+.section-container {
+  margin-bottom: 20px; /* Adjust as needed */
+  border: 5px solid #ccc; /* Example border styling */
+  padding: 10px; /* Example padding */
+  background-color: rgb(87, 116, 63);
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+
+.section-container h2 {
+  text-align: center; /* Center align the h2 tags */
+  font-weight: bold; /* Make the h2 tags bold */
+}
+.section-container p{
+  font-size: 20px;
+}

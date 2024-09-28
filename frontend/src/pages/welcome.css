@@ -1,0 +1,60 @@
+/* Style for the form container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    align-items: center;
+  }
+  
+  /* Style for the label */
+  label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    align-items: center;
+  
+  }
+  
+  /* Style for the file input */
+  input[type="file"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  
+  }
+  
+  /* Style for the submit button */
+  button {
+    background-color: #00ff51;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00b342;
+  }
+  .title-welcome{
+    color: #333; /* Set your desired text color */
+    text-align: center; /* Center the text */
+    font-size: 50px;
+    bottom: 100px;
+    margin-top: 35px;
+  }
+  .content-welcome{
+    color: #333; /* Set your desired text color */
+    text-align: center; /* Center the text */
+    font-size: 40px;
+
+  }
+  

@@ -1,0 +1,42 @@
+/* Navbar container */
+.Navbar {
+  background-color: #58a1ea; /* Set the background color */
+  color: #f4f1f1;
+}
+
+/* Navbar toggler icon color */
+.Navbar .Navbar-toggler-icon {
+  background-color: #ffffff; /* Set the color of the toggler icon */
+}
+
+/* Container */
+.Navbar .Container {
+  padding: 10px 15px; /* Adjust padding for container */
+}
+
+/* Navbar brand */
+.Navbar .navbar-brand {
+  color: #ffffff; /* Set the text color to white */
+  font-weight: bold; /* Optionally, set font weight */
+}
+
+/* Navbar links */
+.Navbar .me-auto .nav-link {
+  color: #ffffff; /* Set the text color to white */
+  margin-right: 15px; /* Adjust spacing between links */
+}
+
+/* Navbar links hover effect */
+.Navbar .me-auto .nav-link:hover {
+  color: #28a745; /* Change text color on hover */
+}
+
+/* Active link color */
+.Navbar .me-auto .nav-link.active {
+  color: #28a745; /* Set color for the active link */
+}
+
+/* Logout link color */
+.Navbar .me-auto .nav-link.logout {
+  color: #dc3545; /* Set a different color for the logout link */
+}
